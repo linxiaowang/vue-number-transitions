@@ -1,12 +1,12 @@
 {
-  "name": "number-animation",
+  "name": "vue-number-transitions",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "package": "vue-cli-service build --target lib ./src/package/index.js --name number-animation --dest number-animation"
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name vue-number-transitions --dest vue-number-transitions"
   },
   "dependencies": {
     "core-js": "^3.8.3",
