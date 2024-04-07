@@ -7,7 +7,7 @@ This component is rewritten using the number-animation component from Naive UI, 
 # Install dependencies
 $ yarn install
 
-# Start dev server with hot reload at localhost:3000
+# Start dev server with hot reload at localhost:8080
 $ yarn serve
 ```
 
