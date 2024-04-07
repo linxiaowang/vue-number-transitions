@@ -1,24 +1,14 @@
 # number-animation
+This component is rewritten using the number-animation component from Naive UI. You can refer to the [Naive UI API documentation](https://www.naiveui.com/zh-CN/os-theme/components/number-animation) to use it effectively.
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
+## Set up
 ```
-yarn serve
-```
+# Install dependencies
+$ yarn install
 
-### Compiles and minifies for production
-```
-yarn build
+# Start dev server with hot reload at localhost:3000
+$ yarn serve
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
