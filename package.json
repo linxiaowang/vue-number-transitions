@@ -10,7 +10,7 @@
   },
   "main": "dist/vue-number-transitions.umd.js",
   "author": {
-    "name": "linxiaownag",
+    "name": "linxiaowang",
     "github": "https://github.com/linxiaowang/vue-number-transitions"
   },
   "dependencies": {
