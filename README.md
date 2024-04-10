@@ -43,7 +43,7 @@ export default {
 | active | `boolean` | `true` | 是否开始动画 |
 | duration | `number` | `3000` | 动画持续时间 |
 | from | `number` | `0` | 数值动画起始值 |
-| locale | `string` | en-us | 国际化的语言 |
+| locale | `string` | en-US | 国际化的语言 |
 | precision | `number` | `0` | 精度，保留小数点后几位 |
 | show-separator | `boolean` | `false` | 是否显示分隔符 |
 | to | `number` | `undefined` | 目标值 |
