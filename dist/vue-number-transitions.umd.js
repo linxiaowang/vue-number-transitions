@@ -347,15 +347,10 @@ var component = normalizeComponent(
 /* harmony default export */ var number_animation = (component.exports);
 ;// CONCATENATED MODULE: ./src/package/index.js
 
-const components = [number_animation];
-
-// 批量组件注册
-const install = function (Vue) {
-  components.forEach(component => {
-    Vue.component(component.name, component);
-  });
+number_animation.install = function (Vue) {
+  Vue.component('VueNumberTransitions', number_animation);
 };
-/* harmony default export */ var src_package = (install); // 这个方法以后再使用的时候可以被use调用
+/* harmony default export */ var src_package = (number_animation);
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 

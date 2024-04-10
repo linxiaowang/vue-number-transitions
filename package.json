@@ -1,14 +1,14 @@
 {
   "name": "vue-number-transitions",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "package": "vue-cli-service build --target lib ./src/package/index.js"
+    "package": "vue-cli-service build --target lib --name vue-number-transitions ./src/package/index.js"
   },
-  "main": "dist/vue-number-transitions.umd.js",
+  "main": "./dist/vue-number-transitions.umd.js",
   "author": {
     "name": "linxiaowang",
     "github": "https://github.com/linxiaowang/vue-number-transitions"
@@ -17,6 +17,13 @@
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",

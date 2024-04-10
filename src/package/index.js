@@ -1,11 +1,8 @@
-import NumberAnimation from "../package/number-animation/index.vue"; 
-const components = [NumberAnimation]; 
 
-// 批量组件注册
-const install = function (Vue) {
-  components.forEach((component) => {
-    Vue.component(component.name, component);
-  });
-};
+import VueNumberTransitions from '../package/number-animation/index.vue'
 
-export default install; // 这个方法以后再使用的时候可以被use调用
+VueNumberTransitions.install = function (Vue) {
+    Vue.component('VueNumberTransitions', VueNumberTransitions)
+}
+
+export default VueNumberTransitions
