@@ -5,7 +5,7 @@ This component is rewritten using the number-animation component from Naive UI, 
 ### Install
 
 ```bash
-npm install vue-number-transition
+npm install vue-number-transitions
 ```
 
 ### Usage
