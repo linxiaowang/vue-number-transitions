@@ -1,8 +1,6 @@
 <template>
   <span>
-    <span v-for="(item, index) in [formattedValue.integer, formattedValue.decimal ? formattedValue.decimalSeparator : null, formattedValue.decimal]" :key="index">
-      {{ item }}
-    </span>
+    <span v-for="(item, index) in [formattedValue.integer, formattedValue.decimal ? formattedValue.decimalSeparator : null, formattedValue.decimal]" :key="index">{{ item }}</span>
   </span>
 </template>
 
