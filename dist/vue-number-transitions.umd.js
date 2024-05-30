@@ -74,14 +74,14 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/number-animation/index.vue?vue&type=template&id=26b84f24
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/number-animation/index.vue?vue&type=template&id=c04be1b0
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('span', _vm._l([_vm.formattedValue.integer, _vm.formattedValue.decimal ? _vm.formattedValue.decimalSeparator : null, _vm.formattedValue.decimal], function (item, index) {
     return _c('span', {
       key: index
-    }, [_vm._v(" " + _vm._s(item) + " ")]);
+    }, [_vm._v(_vm._s(item))]);
   }), 0);
 };
 var staticRenderFns = [];
